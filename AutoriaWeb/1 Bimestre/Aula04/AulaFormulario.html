@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula sobre Formulário</title>
+    </head>
+    <body>
+        <h1>Cadastro de pessoa</h1>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="Informe o seu nome completo">
+                <label for="nascimento">Nascimento:</label>
+                <input id="nascimento" type="date">
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="number">
+                <label for="sexo">Sexo:</label>
+                <select id="sexo">
+                    <option value="">Selecione ...</option>
+                    <option id="Masculino">Masculino</option>
+                    <option id="Feminino">Feminino</option>
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cep">Cep:</label>
+                <input id="cep" type="number"><br>
+                <label for="logradouro">Logradouro:</label>
+                <input id="logradouro"><br>
+                <label for="complemento">Complemento:</label>
+                <input id="complemento" ><br>
+                <label for="bairro">Bairro:</label>
+                <input id="bairro"><br>
+                <label for="cidade">Cidade:</label>
+                <input id="cidade" type="text"><br>
+                <label for="uf">UF</label>
+                <select id="uf">
+                    <option value="" selected>Selecione o Estado</option>
+                    <option id="AC">AC</option>
+                    <option id="AL">AL</option>
+                    <option id="AP">AP</option>
+                    <option id="AM">AM</option>
+                    <option id="BA">BA</option>
+                    <option id="CE">CE</option>
+                    <option id="DF">DF</option>
+                    <option id="ES">ES</option>
+                    <option id="GO">GO</option>
+                    <option id="MA">MA</option>
+                    <option id="MT">MT</option>
+                    <option id="MS">MS</option>
+                    <option id="MG">MG</option>
+                    <option id="PA">PA</option>
+                    <option id="PB">PB</option>
+                    <option id="PR">PR</option>
+                    <option id="PE">PE</option>
+                    <option id="PI">PI</option>
+                    <option id="RJ">RJ</option>
+                    <option id="RN">RN</option>
+                    <option id="RS">RS</option>
+                    <option id="RO">RO</option>
+                    <option id="RR">RR</option>
+                    <option id="SC">SC</option>
+                    <option id="SP">SP</option>
+                    <option id="SE">SE</option>
+                    <option id="TO">TO</option>
+                </select>
+
+            </fieldset>
+        </form>
+        <button>
+            Enviar
+        </button>
+        <button>
+            Cancelar
+        </button>
+    </body>
+</html>

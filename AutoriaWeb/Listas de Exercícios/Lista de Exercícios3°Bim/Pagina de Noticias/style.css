@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: red;
+    font-family: "Audiowide", sans-serif;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}

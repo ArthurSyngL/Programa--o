@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <style>
+            .be{
+                font-family: 'PT Serif', serif;
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="be">Boletim Escolar</div>
+        <div>
+            <form>
+                <fieldset>
+                    <label for="nt1">Nota 1:</label>
+                    <input id="nt1" value="8.5"><br><br>
+                    <label for="nt2">Nota 2:</label>
+                    <input id="nt2" value="9.8"><br><br>
+                    <label for="nt3">Nota 3:</label>
+                    <input id="nt3" value="7.8"><br><br>
+                    <label for="nt4">Nota 4:</label>
+                    <input id="nt4" value="6.5"><br><br>
+                    <script>
+                        var n1,n2,n3,n4;
+                        n1=8.5;
+                        n2=9.8;
+                        n3=7.8;
+                        n4=6.5;
+                        document.write("Media:"+" "+(n1+n2+n3+n4)/4);
+                    </script>
+
+                </fieldset>
+            </form>
+        </div>
+
+
+       
+    </body>
+</html>

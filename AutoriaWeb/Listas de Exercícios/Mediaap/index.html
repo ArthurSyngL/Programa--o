@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media Aprovado ou não</title>
+    </head>
+    <body>
+        <!---Questao01--->
+
+        <h4>Questao 01</h4><br>
+        <form>
+            <fieldset>
+                <label for="nt1">Nota 1:</label>
+                <input id="nt1" value="8.5"><br><br>
+                <label for="nt2">Nota 2:</label>
+                <input id="nt2" value="9.8"><br><br>
+                <label for="nt3">Nota 3:</label>
+                <input id="nt3" value="7.8"><br><br>
+                <label for="nt4">Nota 4:</label>
+                <input id="nt4" value="6.5"><br><br>
+                <script>
+                    var n1, n2, n3, n4;
+                        n1=8.5;
+                        n2=9.8;
+                        n3=7.8;
+                        n4=6.5;
+                        
+                    if ((n1+n2+n3+n4)/4 >= 6) {
+                        document.write("Você foi aprovado(a)");
+                    } else {
+                        document.write("Você foi reprovado(a)");
+                    }
+                </script>
+            </fieldset>
+        </form>
+
+        <!---Questao02--->
+
+        <h4>Questao 02</h4><br>
+        
+        <form>
+            <fieldset>
+                <label for="Graus">Graus:</label>
+                <input id="Graus" value="38"><br><br>
+                <label for="Umi">Umidade:</label>
+                <input id="Umi" value="80"><br><br>
+                <script>
+                    var u=80, g=38;
+
+                    if (u>90 && g>38) {
+                    document.write("Está chovendo!");
+                    } else {
+                    document.write("Não está chovendo");
+                    }
+                </script>
+            </fieldset>
+        </form>
+
+        <!---Questao03--->
+
+        <h4>Questao 03</h4><br>
+
+        <form>
+            <fieldset>
+                <label for="idade"><b>Idade:</b></label>
+                <input id="idade" value="20"><br><br>
+                <script>
+                    var id = 20;
+                    if (id > 18) {
+                    document.write("Você está apto(a) a dirigir!");
+                    } else{
+                        document.write("Você não pode dirigir!");
+                    }
+                </script>
+            </fieldset>
+        </form>
+
+
+        <!---Questao04--->
+
+        <h4>Questao 04</h4><br>
+
+        <form>
+            <fieldset>
+                <label for="n">Digite o numero:</label>
+                <input id="n" value="55"><br><br>
+                <script>
+                    var n;
+                    n=55;
+                    if (n % 2 === 0) {
+                    document.write("Par");
+                    }else{document.write("Impar");}
+                </script>
+            </fieldset>
+        </form>
+    </body>
+</html>

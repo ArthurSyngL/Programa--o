@@ -1,0 +1,16 @@
+h1{
+    color: #0000ff;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+h2{
+    color: #fc4a0b;
+    text-indent: 20px;
+}
+
+p{
+    background-color: #aba9a9;
+    margin-left: 50px;
+    margin-right: 50px;
+}

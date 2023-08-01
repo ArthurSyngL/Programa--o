@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Js Função</title>
+    </head>
+    <body>
+        <form name="form">
+            
+                <label for="name" >Digite seu Nome completo:</label><br>
+                <input type="name" name="nome"><br><br>
+            
+
+            
+                <label for="email" >Digite seu endereço de email:</label><br>
+                <input type="email" name="email"><br><br>
+            
+
+           
+                <label>Sexo:</label><br><br>
+
+                <input type="radio" id="M" class="s" name="s">
+                <label for="M" >Masculino</label>
+
+                <input type="radio" id="F" class="s" name="s">
+                <label for="F" >Feminino</label><br><br>
+           
+
+            <label>Profisão:</label><br>
+
+             
+
+                
+                <select id="profisão" name="profisão">
+                    <option value="" ></option>
+                    <option value="Programador">Programador</option>
+                    <option value="ads" >Analista de software</option>
+                </select><br><br>
+            
+                <input type="submit" value="enviar" onclick="validar()" class="button">
+            </div>
+        </form>
+        
+        
+         
+        <script>
+            function validar() {
+                var nome=form.nome;
+                var mail=form.email;
+                var sexo=form.s;
+                var prof=form.profisão;
+                if(nome.value == ""){
+                    alert("O campo Nome esta vazio");
+                }
+                else if(mail.value == ""){
+                    alert("O campo Email esta vazio");
+                }
+                else if(sexo.value == ""){
+                    alert("O campo Sexo esta vazio");
+                }
+                else if(prof.value == ""){
+                    alert("O campo Profisão esta vazio");
+                }
+                else{
+                    alert("Esta tudo completo");
+                }
+            } 
+            
+        </script>
+    </body>
+</html>

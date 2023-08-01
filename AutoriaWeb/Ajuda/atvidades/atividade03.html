@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tipos de cursores</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous" defer></script>
+        <style>
+            .bodys{
+                background-color: white;
+            }
+
+            .titule{
+                margin-top: 40px;
+                font-size: 40px;
+            }
+
+            .container{
+                position: absolute;
+                left: 100px;
+                top: 160px;
+                right: 100px;
+                bottom: 160px;
+            }
+
+            .card-text{
+                background-color: red;
+            }
+
+            /*tipos de cursores*/
+            .grab {cursor: -webkit-grab; cursor: grab;}
+            .zoom-in {cursor: zoom-in;}
+            .progressq {cursor: progress;}
+            .no-drop {cursor: no-drop;}
+            .all-scroll {cursor: all-scroll;}
+            .wait {cursor: wait;}
+            .cell {cursor: cell;}
+            .col-resize {cursor: col-resize;}
+            .help {cursor: help;}
+
+            h1{
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="bodys">
+        <header class="text-center titule">Passe o mouse por cima das caixas de texto</header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text grab">grab</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text zoom-in">zoom-in</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text progressq">progress</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text no-drop">no drop</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text all-scroll">all scroll</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text wait">wait</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text cell">cell</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text col-resize">resize</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <h1 class="card-text help">help</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

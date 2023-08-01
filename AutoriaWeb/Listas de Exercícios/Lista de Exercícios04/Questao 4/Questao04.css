@@ -1,0 +1,39 @@
+body{
+    background: #f1ca6a;
+    border: 2px solid #000000;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: #e4680eff;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 40px;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div{
+    border: 3px dashed #000000;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ff9a00;
+}
+.preto{
+    border: 2px solid #000000;
+    margin-right: 100px;
+    background-color: #625e5e;
+}
+
+.vermelho{
+    border: 2px solid red;
+    margin-left: 100px;
+    background-color: #ef4e4e;
+}
